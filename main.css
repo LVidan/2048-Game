@@ -1,0 +1,43 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background: #ffcd9f;
+}
+p {
+    color: #000;
+}
+h1 {
+    text-align: center;
+}
+#score {
+    text-align: center;
+}
+.clear {
+    clear: both;
+}
+#size-bloc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+#size-bloc p {
+  color: #000;
+  font-size: 20px;
+}
+#size-bloc input {
+  border: none;
+  font-size: 20px;
+  text-align: left;
+}
+#size {
+    width: 50px;
+    margin-left: 10px;
+    border-radius: 3px;
+}
+#canvas {
+    background: #BBADA0;
+}
+#canvas-bloc {
+   display: flex;
+   justify-content: center;
+}
